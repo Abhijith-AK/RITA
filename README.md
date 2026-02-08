@@ -20,9 +20,7 @@ human-like system interaction when required.
 
 ## Core Principle
 
-> If an API is available, RITA uses it.  
-> If not, RITA performs the task manually using system-level
-> perception and control.
+> **RITA exists to maintain order between intention and action.**
 
 ---
 
