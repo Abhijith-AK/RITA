@@ -1,0 +1,7 @@
+{
+    "CHECK_EMAIL": {
+        "api": true,
+        "system": false,
+        "manual": true
+    }
+}
