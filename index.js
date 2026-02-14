@@ -4,6 +4,7 @@ const { decideStrategy } = require("./core/decision-engine");
 const { executeAction } = require("./actions/executor");
 const capabilities = require("./core/capability-resolver/capabilities.json");
 const readline = require("readline");
+const { recordApproval, getApprovalCount } = require("./memory/memory");
 
 
 function logAction(data) {
@@ -18,8 +19,15 @@ function runRITA(input) {
 
     const intent = detectIntent(input);
     console.log("Detected Intent:", intent);
-
+    
     const decision = decideStrategy(intent, capabilities);
+
+    const approvalCount = getApprovalCount(intent);
+
+    if (approvalCount >= 3) {
+        decision.autonomy = "AUTO";
+        console.log("RITA learned this action is safe. Switching to AUTO mode.");
+    }
 
     console.log("Chosen Strategy:", decision.strategy);
     console.log("Confidence:", decision.confidence);
@@ -46,6 +54,7 @@ function runRITA(input) {
             `RITA wants to execute ${intent} using ${decision.strategy}. Confirm? (yes/no): `,
             answer => {
                 if (answer.toLowerCase() === "yes") {
+                    recordApproval(intent);
                     const result = executeAction(intent, decision);
                     console.log("Execution Result:");
                     console.log(result.summary || result.message);
