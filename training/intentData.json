@@ -1,0 +1,762 @@
+[
+    {
+        "text": "check my email",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "open my inbox",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "any new emails?",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "show my emails",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "read my latest email",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "do I have unread messages?",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "check unread mail",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "open gmail",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "see my inbox messages",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "look for new mail",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "what emails did I get?",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "show unread emails",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "check incoming mail",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "any new mail today?",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "open email account",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "read my messages",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "do I have new notifications in email?",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "check my mail",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "see recent emails",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "open inbox now",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "any important emails?",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "show latest messages",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "check mail updates",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "get my emails",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "display inbox",
+        "intent": "CHECK_EMAIL"
+    },
+    {
+        "text": "what's the weather",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "is it raining",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "tell me the weather",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "weather update",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "how's the weather today?",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "is it sunny outside?",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "current temperature",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "do I need an umbrella?",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "weather forecast",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "what's the temperature now?",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "is it hot today?",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "check today's weather",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "how cold is it?",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "will it rain today?",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "give me weather details",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "show weather forecast",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "what's outside temperature?",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "weather report please",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "is it cloudy?",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "check climate conditions",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "today's forecast",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "how's the climate?",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "is it windy today?",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "temperature outside",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "should I carry a jacket?",
+        "intent": "CHECK_WEATHER"
+    },
+    {
+        "text": "create a file",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "make a new document",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "create a new file",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "start a new document",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "generate a file",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "create text file",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "make a blank file",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "open new document",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "create a project file",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "start new file",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "new file please",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "make file",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "create document now",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "initialize new file",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "create empty file",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "make new text document",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "add a new file",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "create markdown file",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "new document",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "start fresh file",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "create note file",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "make new project document",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "create file for me",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "open blank document",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "create new workspace file",
+        "intent": "CREATE_FILE"
+    },
+    {
+        "text": "search for javascript tutorials",
+        "intent": "SEARCH_WEB"
+    },
+    {
+        "text": "look up nodejs documentation",
+        "intent": "SEARCH_WEB"
+    },
+    {
+        "text": "find information about machine learning",
+        "intent": "SEARCH_WEB"
+    },
+    {
+        "text": "google react hooks examples",
+        "intent": "SEARCH_WEB"
+    },
+    {
+        "text": "search the web for latest tech news",
+        "intent": "SEARCH_WEB"
+    },
+    {
+        "text": "find restaurants near me",
+        "intent": "SEARCH_WEB"
+    },
+    {
+        "text": "look up today's headlines",
+        "intent": "SEARCH_WEB"
+    },
+    {
+        "text": "search for AWS pricing details",
+        "intent": "SEARCH_WEB"
+    },
+    {
+        "text": "find python tutorials online",
+        "intent": "SEARCH_WEB"
+    },
+    {
+        "text": "search internet for weather in Delhi",
+        "intent": "SEARCH_WEB"
+    },
+    {
+        "text": "look up stock price of TCS",
+        "intent": "SEARCH_WEB"
+    },
+    {
+        "text": "find me information about cybersecurity",
+        "intent": "SEARCH_WEB"
+    },
+    {
+        "text": "search for best laptops under 50000",
+        "intent": "SEARCH_WEB"
+    },
+    {
+        "text": "google how to deploy node app",
+        "intent": "SEARCH_WEB"
+    },
+    {
+        "text": "look up upcoming tech conferences",
+        "intent": "SEARCH_WEB"
+    },
+    {
+        "text": "search web for AI trends",
+        "intent": "SEARCH_WEB"
+    },
+    {
+        "text": "find articles about MLOps",
+        "intent": "SEARCH_WEB"
+    },
+    {
+        "text": "search for BlackArch tools list",
+        "intent": "SEARCH_WEB"
+    },
+    {
+        "text": "look up how to invest in stocks",
+        "intent": "SEARCH_WEB"
+    },
+    {
+        "text": "find tutorials for MERN stack",
+        "intent": "SEARCH_WEB"
+    },
+    {
+        "text": "how are you",
+        "intent": "SYSTEM_STATUS"
+    },
+    {
+        "text": "are you working?",
+        "intent": "SYSTEM_STATUS"
+    },
+    {
+        "text": "are you online",
+        "intent": "SYSTEM_STATUS"
+    },
+    {
+        "text": "is the system running?",
+        "intent": "SYSTEM_STATUS"
+    },
+    {
+        "text": "are you active?",
+        "intent": "SYSTEM_STATUS"
+    },
+    {
+        "text": "what's your status?",
+        "intent": "SYSTEM_STATUS"
+    },
+    {
+        "text": "are you available?",
+        "intent": "SYSTEM_STATUS"
+    },
+    {
+        "text": "are you alive?",
+        "intent": "SYSTEM_STATUS"
+    },
+    {
+        "text": "is everything working?",
+        "intent": "SYSTEM_STATUS"
+    },
+    {
+        "text": "system health check",
+        "intent": "SYSTEM_STATUS"
+    },
+    {
+        "text": "are you functioning properly?",
+        "intent": "SYSTEM_STATUS"
+    },
+    {
+        "text": "is the bot up?",
+        "intent": "SYSTEM_STATUS"
+    },
+    {
+        "text": "are you responsive?",
+        "intent": "SYSTEM_STATUS"
+    },
+    {
+        "text": "status update",
+        "intent": "SYSTEM_STATUS"
+    },
+    {
+        "text": "are you ready?",
+        "intent": "SYSTEM_STATUS"
+    },
+    {
+        "text": "can you hear me?",
+        "intent": "SYSTEM_STATUS"
+    },
+    {
+        "text": "is the assistant running?",
+        "intent": "SYSTEM_STATUS"
+    },
+    {
+        "text": "are services operational?",
+        "intent": "SYSTEM_STATUS"
+    },
+    {
+        "text": "check system status",
+        "intent": "SYSTEM_STATUS"
+    },
+    {
+        "text": "is everything okay?",
+        "intent": "SYSTEM_STATUS"
+    },
+    {
+        "text": "hello",
+        "intent": "SMALL_TALK"
+    },
+    {
+        "text": "hi there",
+        "intent": "SMALL_TALK"
+    },
+    {
+        "text": "good morning",
+        "intent": "SMALL_TALK"
+    },
+    {
+        "text": "good evening",
+        "intent": "SMALL_TALK"
+    },
+    {
+        "text": "what's up?",
+        "intent": "SMALL_TALK"
+    },
+    {
+        "text": "how's it going?",
+        "intent": "SMALL_TALK"
+    },
+    {
+        "text": "nice to meet you",
+        "intent": "SMALL_TALK"
+    },
+    {
+        "text": "how was your day?",
+        "intent": "SMALL_TALK"
+    },
+    {
+        "text": "good to see you",
+        "intent": "SMALL_TALK"
+    },
+    {
+        "text": "hey buddy",
+        "intent": "SMALL_TALK"
+    },
+    {
+        "text": "yo",
+        "intent": "SMALL_TALK"
+    },
+    {
+        "text": "sup",
+        "intent": "SMALL_TALK"
+    },
+    {
+        "text": "how are things?",
+        "intent": "SMALL_TALK"
+    },
+    {
+        "text": "what are you doing?",
+        "intent": "SMALL_TALK"
+    },
+    {
+        "text": "tell me something interesting",
+        "intent": "SMALL_TALK"
+    },
+    {
+        "text": "nice weather today",
+        "intent": "SMALL_TALK"
+    },
+    {
+        "text": "long time no see",
+        "intent": "SMALL_TALK"
+    },
+    {
+        "text": "what's new?",
+        "intent": "SMALL_TALK"
+    },
+    {
+        "text": "hey assistant",
+        "intent": "SMALL_TALK"
+    },
+    {
+        "text": "glad you're here",
+        "intent": "SMALL_TALK"
+    },
+    {
+        "text": "asdfghjkl",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "blabla random text",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "1234567890",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "!@#$%^&*",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "lorem ipsum dolor sit amet",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "random gibberish",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "something something",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "qwertyuiop",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "just typing anything",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "I don't know what I want",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "this makes no sense",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "blah blah blah",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "test test test",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "???",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": ".....",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "no idea",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "whatever",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "random command",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "unknown input",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "something weird here",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "launch nuclear protocol alpha",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "hack the system",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "self destruct sequence",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "translate this poem into french",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "who won the world cup",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "book me a flight to paris",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "transfer 1 lakh to my bank account",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "delete all system logs",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "access admin control panel",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "shutdown the main server",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "write me a love poem",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "generate a rap song",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "crack wifi password",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "start bitcoin mining",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "open the pod bay doors",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "give me today's cricket scores",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "call my mom",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "send a whatsapp message",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "play some music",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "order pizza",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "turn off the lights",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "increase my salary",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "deploy my code to production",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "summarize this research paper",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "solve this math equation",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "write python code for quicksort",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "design a logo for my startup",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "create a powerpoint presentation",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "edit this photo",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "find my current location",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "track my parcel",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "tell me a joke",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "predict stock market tomorrow",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "schedule a meeting at 5pm",
+        "intent": "UNKNOWN"
+    },
+    {
+        "text": "convert this pdf to word",
+        "intent": "UNKNOWN"
+    }
+]
