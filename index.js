@@ -1,6 +1,7 @@
 const fs = require("fs");
 const { detectIntent } = require("./core/intent-engine");
 const { decideStrategy } = require("./core/decision-engine");
+const { executeAction } = require("./actions/executor");
 const capabilities = require("./core/capability-resolver/capabilities.json");
 
 function logAction(data) {
@@ -30,6 +31,23 @@ function runRITA(input) {
         confidence: decision.confidence,
         autonomy: decision.autonomy
     });
+
+    if (decision.autonomy !== "DENY") {
+        const result = executeAction(intent, decision);
+
+        console.log("Execution Result:");
+        console.log(result.summary || result.message);
+
+        logAction({
+            timestamp: new Date().toISOString(),
+            input,
+            intent,
+            strategy: decision.strategy,
+            confidence: decision.confidence,
+            autonomy: decision.autonomy,
+            result
+        });
+    }
 
     console.log("RITA status: aligned ✅");
 }
